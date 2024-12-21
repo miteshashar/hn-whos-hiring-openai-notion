@@ -1,0 +1,103 @@
+Help me evaluate the given job posting for my profile, requirements and preferences.
+
+I have 16 years of offbeat & versatile experience encompassing software engineering, manufacturing, exports, e-commerce, community building, & community engagement. I believe that this diversity empowers me with a  powerful understanding to translate business requirements into the execution of building, enhancing, pivoting, extending & improvising in the software development process.
+
+Location:
+My current location is Kolkata, India.
+My location preferences in the order of preference are:
+- Fully remote role that is open to all physical locations = 10 points.
+- Fully remote role that is open to all physical locations, but require me to be in US/Canada timezones = 9 points. 
+- Remote roles that require me to be in other locations that require relocation outside India = 8 points.
+- Hybrid roles in other countries = 7 points.
+- On-site roles that require me to be in other countries = 6 points.
+- Hybrid roles in India = 5 points.
+- On-site roles that require me to be in India = 4 points.
+
+Technologies I am not willing to work with:
+Deep AI/ML, Java, C#, Ruby, PHP, Kotlin, Swift
+
+Technologies I am willing to work with:
+Web Applications, Desktop/Mobile Applications, Backend/data work, daemons, automations, Basic AI/ML, Python, JavaScript, SQL, HTML, CSS, React, Node.js, Express, Fastify, FastAPI, Flask, Django, Expo, other related technologies & frameworks. This does not mean I am not willing to work with other technologies, but they should not be on the list of technologies I am not willing to work with. 
+
+Role:
+I am looking for a Software Engineering role. I am also open to the role of a Solutions Architect or Solutions Engineer, which would be a great fit for me because of my diverse experience.
+
+My position preferences in the order of preference are:
+- Full-stack.
+- Solutions.
+- Backend.
+- Frontend.
+- Any combination of the above.
+
+Ancilliary work I am willing to accommodate within my primary position:
+- DevOps & Infrastructure.
+- Mobile.
+- UI/UX.
+- Data.
+- Prompt Engineering.
+- Basic AI/ML.
+
+Ancilliary work I am not very keen to accommodate with my primary position:
+- Deep AI/ML.
+- Management.
+- Product management.
+
+Industries I am interested in:
+- Healthcare
+- Climate Change
+- Productivity
+- Education
+- Finance
+- Technology
+- Manufacturing
+- E-commerce
+- Dev/Power Tools
+- AI/ML
+
+Industries I am less interested in:
+- Marketing
+- Media
+- Entertainment
+- Real Estate
+
+
+Task:
+
+Take a deep breath and mindfully evaluate the posting and determine whether it is a good fit for me, based on the following criterion:
+
+- Company name: What is the name of the company?
+- Positions: What are the positions highlighted in the posting? The posting should be rated based on the most relevant position for me.
+- Tags: An array of tags that are relevant to the posting. Be mindful of the tags and only include tags that are relevant to my skills and interests. The existing tags in the system will be provided. You are free to allocate new tags. Tags are allowed to sentence case in usual Englsh language. Where necessary/relevant, you can have capitalisation in between too. You can use abbreviations without periods in them. Do not create redundant tags representing the same thing.
+- Overall reasoning: What is the reasoning behind your evaluation of the posting? What makes it a good fit for me?
+- Tech fitment score: How well does the posting showcase my tech skills? How many of the technologies listed in the posting are relevant to my skills? Rate out of 10.
+- Location fitment score: How well does the posting showcase my location preferences? Rate out of 10.
+- Location category: What is the location category of the posting? Either "remote", "remote-relocate", "on-site", "hybrid" or "other".
+- Location: If not fully remote, what is the location of the posting?
+- Role fitment score: How well does the role highlighted in the posting suit my profile? Rate out of 10.
+- Position fitment score: How well does the posting showcase my position preferences? Rate out of 10.
+- Well funded: Is the business well funded?
+- Impact level: How impactful is the business idea in my interested industries? I am looking for a job that will have a positive impact on the world or a large number of people. Rate out of 10.
+- Total rating: How well does the job posting suit my profile, requirements and preferences? Rate out of 100.
+
+Your output should strictly be a valid, complete and parseable JSON object. Nothing before the opening { and nothing after the closing }.
+The JSON object should be in the following format:
+{
+  "company_name": "...",
+  "position": "...",
+  "tags": [],
+  "overall_reasoning": "...",
+  "tech_fitment_score": int,
+  "tech_fitment_score_reason": "...",
+  "location": "...",
+  "location_category": "remote|remote-relocate|on-site|hybrid|other",
+  "location_fitment_score": int,
+  "location_fitment_score_reason": "...",
+  "role_fitment_score": int,
+  "role_fitment_score_reason": "...",
+  "position_fitment_score": int,
+  "position_fitment_score_reason": "...",
+  "well_funded": bool,
+  "impact_level": int,
+  "impact_level_reason": "...",
+  "total_rating": int
+}

@@ -1,0 +1,6 @@
+requests
+simplejson
+beautifulsoup4
+openai
+notion-client
+python-dotenv

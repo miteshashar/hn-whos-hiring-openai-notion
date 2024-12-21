@@ -1,0 +1,17 @@
+Given below is a job posting on Hacker News by "{author}" on the monthly "Who is hiring?" thread for {month}, posted on {posted_on} with ID {posting_id}.
+
+```
+{posting}
+```
+
+Comments on this post:
+
+```
+{comments}
+```
+
+Existing tags in the system are:
+
+{tags}
+
+Very Important: Strictly ensure that the response is a valid, complete and parseable JSON object. Nothing before and after the JSON object. It should not have anything apart from the JSON object.
